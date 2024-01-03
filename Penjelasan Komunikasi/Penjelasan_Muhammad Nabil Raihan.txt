@@ -1,0 +1,16 @@
+Jenis-jenis komunikasi:
+- Simplex      : Mengirim dan menerima dalam satu arah
+- Half-Duplex  : Mengirim dan menerima dalam dua arah secara bergantian
+- Full-Duplex  : Dapat mengirim dan menerima dalam dua arah secara bersamaan
+
+Adapun beberapa protokol komunikasi:
+1. SPI
+   Terdapat hubungan master-slave. Perangkat yang menjadi master biasanya mikrokontroller, sementara slave berupa sensor.
+   Jenis komunikasinya adalah full-duplex. Membutuhkan 4 kabel. Transmisi tidak terganggu start-stop bit
+2. UART (Universal Asynchronous Receiver Transmitter)
+   Memiliki start-stop bit. Jenis komunikasinya adalah half-duplex atau full-duplex. Merupakan protokol komunikasi yang
+   paling banyak digunakan.
+3. I2C
+   Terdapat hubungan master-slave. Hanya membutuhkan 2 kabel. Memiliki start-stop bit. Jenis komunikasi: half-duplex
+4. CAN (Controller Area Network)
+   Jenis komunikasi: half-duplex
